@@ -77,11 +77,7 @@ class Game:
         valid_word = word.get_valid_word(data)
         hangman = word.hangman(valid_word)
 
-welcome = input('\nDo you want to play hangman? y/n\n')
-if welcome != 'y':
-    quit('\nOkay Bye!')
-else:
-    Game().call_class()
+dashs = '-' * 40
 
 
 
